@@ -1,5 +1,4 @@
 <?php
-require('C:\xampp\htdocs\vk\vendor\vkcom\vk-php-sdk\src\VK\Client\VKApiClient.php');
 require('config.php');
 
 function write_message($sender, $message) {
@@ -32,4 +31,4 @@ else{
     echo("Соси");
 }
 
-$events = $event; // Store the received data in the 'events' variable
+$events = $event;
